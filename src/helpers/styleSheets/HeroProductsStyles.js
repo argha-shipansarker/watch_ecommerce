@@ -19,8 +19,8 @@ const HeroProductsStyle = makeStyles(theme => ({
         width: 360,
         justifyContent: "center",
         alignItems: "center",
-        paddingTop: 25,
-        paddingBottom: 25,
+        paddingTop: 21,
+        paddingBottom: 21,
         borderRadius: 12
     },
     productName: {

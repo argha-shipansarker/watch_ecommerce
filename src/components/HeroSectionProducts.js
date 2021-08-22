@@ -26,7 +26,7 @@ const IndividualProduct = props => {
         <Grid item style={{ display: "flex", justifyContent: "center", }}>
             <Box className={classes.individualProductContainer}>
                 <Box className={classes.productImage} />
-                <Box style={{ width: 179 }}>
+                <Box style={{ width: 185 }}>
                     <Typography className={classes.productName}>{productName}</Typography>
                     <Typography className={classes.productPrice}>{productPrice}</Typography>
                 </Box>
