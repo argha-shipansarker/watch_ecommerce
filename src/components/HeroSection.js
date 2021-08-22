@@ -47,7 +47,7 @@ const HeroSection = () => {
                                     </Box>
                                 </IconButton>
                             }}
-                            InputLabelProps={{ style: { color: "rgb(179, 186, 197)", paddingTop: 10 } }}
+                            InputLabelProps={{ style: { color: "rgb(179, 186, 197)", paddingTop: 7 } }}
                             inputProps={{ className: classes.inputTextStyle }}
                         />
 
