@@ -16,7 +16,8 @@ const HeroProductsStyle = makeStyles(theme => ({
     individualProductContainer: {
         display: "flex",
         backgroundColor: "white",
-        width: 360,
+        // width: 360,
+        width: "90%",
         justifyContent: "center",
         alignItems: "center",
         paddingTop: 21,

@@ -10,7 +10,7 @@ const data = [
         price: "$1,750.00"
     },
     {
-        name: "Samsung Galaxy Watch 3. Black Metalic Newest",
+        name: "Samsung Galaxy Watch 3. Metalic Newest",
         price: "$1,750.00"
     },
     {
@@ -23,10 +23,10 @@ const IndividualProduct = props => {
     const classes = HeroProductsStyle()
     const { productName, productPrice } = props
     return (
-        <Grid item style={{ display: "flex", justifyContent: "center", }}>
+        <Grid item md={4} sm={6} xs={12}>
             <Box className={classes.individualProductContainer}>
                 <Box className={classes.productImage} />
-                <Box style={{ width: 185 }}>
+                <Box style={{ width: "50%" }}>
                     <Typography className={classes.productName}>{productName}</Typography>
                     <Typography className={classes.productPrice}>{productPrice}</Typography>
                 </Box>
@@ -40,7 +40,7 @@ const HeroSectionProducts = () => {
     return (
         <Box className={classes.outerContainer}>
             <Container>
-                <Grid container justifyContent="space-between">
+                <Grid container spacing={2}>
                     {
                         data.map((item, index) => <IndividualProduct productName={item.name} productPrice={item.price} key={index} />)
                     }
