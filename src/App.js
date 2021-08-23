@@ -12,6 +12,8 @@ import HotItemProducts from './components/HotItemProducts';
 import Category from './components/Category';
 import MostSold from './components/MostSold';
 import BlogSection from './components/BlogSection';
+import FooterBanner from './components/FooterBanner';
+import Footer from './layout/Footer';
 
 import { ThemeProvider } from '@material-ui/styles';
 
@@ -34,6 +36,8 @@ function App() {
           <hr style={{ color: "rgb(213, 217, 223)", marginBottom: 159 }} />
         </Container>
         <BlogSection />
+        <FooterBanner />
+        <Footer />
       </div>
     </ThemeProvider>
   );
