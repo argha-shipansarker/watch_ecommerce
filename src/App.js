@@ -14,6 +14,7 @@ import MostSold from './components/MostSold';
 import BlogSection from './components/BlogSection';
 import FooterBanner from './components/FooterBanner';
 import Footer from './layout/Footer';
+import FooterFinish from './layout/FooterFinish';
 
 import { ThemeProvider } from '@material-ui/styles';
 
@@ -38,6 +39,7 @@ function App() {
         <BlogSection />
         <FooterBanner />
         <Footer />
+        <FooterFinish />
       </div>
     </ThemeProvider>
   );
