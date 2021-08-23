@@ -9,9 +9,7 @@ import { HeaderStyles } from '../helpers/styleSheets/HeaderStyles'
 const Header = () => {
     const classes = HeaderStyles()
     const theme = useTheme()
-    // console.log(theme)
     const isMatch = useMediaQuery(theme.breakpoints.up("md"))
-    console.log(isMatch)
     return (
         <div>
             {

@@ -15,7 +15,6 @@ import BlogSection from './components/BlogSection';
 import FooterBanner from './components/FooterBanner';
 import Footer from './layout/Footer';
 import FooterFinish from './layout/FooterFinish';
-import Drawer from "./layout/test"
 
 import { ThemeProvider } from '@material-ui/styles';
 
@@ -41,7 +40,6 @@ function App() {
         <FooterBanner />
         <Footer />
         <FooterFinish />
-        <Drawer />
       </div>
     </ThemeProvider>
   );
