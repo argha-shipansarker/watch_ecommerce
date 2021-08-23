@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Container, Typography, Grid, IconButton } from '@material-ui/core'
+import { Box, Container, Typography, Grid, } from '@material-ui/core'
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
 import ProductRecommendationStyles from '../helpers/styleSheets/ProductRecommendationStyles'
@@ -87,7 +87,7 @@ const ProductRecommendation = () => {
             <Typography className={classes.subHeading}>You can choose what our recommendation product here</Typography>
             <Grid container justifyContent="space-evenly" spacing={3}>
                 {
-                    data.map((item, index) => <IndividualProduct productName={item.name} currentPrice={item.currentPrice} oldPrice={item.oldPrice} />)
+                    data.map((item, index) => <IndividualProduct productName={item.name} currentPrice={item.currentPrice} oldPrice={item.oldPrice} key={index} />)
                 }
                 <Grid item>
                     <Box className={classes.appleWatchCard}>
@@ -108,7 +108,7 @@ const ProductRecommendation = () => {
                     </Box>
                 </Grid>
                 {
-                    data2.map((item, index) => <IndividualProduct productName={item.name} currentPrice={item.currentPrice} oldPrice={item.oldPrice} />)
+                    data2.map((item, index) => <IndividualProduct productName={item.name} currentPrice={item.currentPrice} oldPrice={item.oldPrice} key={index} />)
                 }
             </Grid>
         </Container>

@@ -1,12 +1,14 @@
 import React from 'react'
 
-import { Box, Grid, Typography, Container, Button } from '@material-ui/core'
+import { Box, Typography, Container, useTheme } from '@material-ui/core'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import { HeaderStyles } from '../helpers/styleSheets/HeaderStyles'
 
 const Header = () => {
     const classes = HeaderStyles()
+    const theme = useTheme()
+    console.log(theme)
     return (
         <Box className={classes.outerContainer}>
             <Container className={classes.innerContainer}>

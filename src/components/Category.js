@@ -74,7 +74,7 @@ const IndividualCategory = props => {
         <Grid item>
             <Box className={classes.individualCategoryContainer}>
                 <Box style={{ width: 38, height: 38, padding: 15, border: "1px dashed grey", marginTop: 40, marginBottom: 37 }}>
-                    <img src={image} width="100%" height="100%" />
+                    <img src={image} width="100%" height="100%" alt="svg of categories" />
                 </Box>
                 <Typography className={classes.individualCategoryText}>{name}</Typography>
             </Box>
@@ -88,7 +88,7 @@ const Category = () => {
         <Container style={{ marginTop: -30, marginBottom: 100 }}>
             <Grid container justifyContent="space-evenly" spacing={3}>
                 {
-                    data.map((item, index) => <IndividualCategory name={item.name} image={item.image} />)
+                    data.map((item, index) => <IndividualCategory name={item.name} image={item.image} key={index} />)
                 }
 
             </Grid>

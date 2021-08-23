@@ -42,7 +42,7 @@ const HotItemBanner = () => {
                 <Box style={{ paddingTop: 60, display: "flex", justifyContent: "space-between" }}>
                     <Box style={{ display: "flex" }}>
                         <Box style={{ height: 52, width: 32, marginRight: 16 }}>
-                            <img src={Fire} width="100%" height="100%" />
+                            <img src={Fire} width="100%" height="100%" alt="svg of fire" />
                         </Box>
                         <Typography className={classes.heading}>Hot Item</Typography>
                     </Box>

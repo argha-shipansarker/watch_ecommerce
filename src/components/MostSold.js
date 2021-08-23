@@ -124,7 +124,7 @@ const MostSold = () => {
             <Grid container spacing={4}>
                 {
                     blockData.map((item, index) => (
-                        <Grid item md={4} sm={6} xs={12}>
+                        <Grid item md={4} sm={6} xs={12} key={index}>
                             <Typography className={classes.heading}>{item.name}</Typography>
                             {
                                 item.array.map((item, index) => <IndividualProduct name={item.name} rating={item.rating} sold={item.sold} key={index} />)

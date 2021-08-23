@@ -36,7 +36,7 @@ const IndividualBlog = props => {
                     </Box>
                     <Typography className={classes.blogHeading}>{heading}</Typography>
                     <Box style={{ width: "100%", overflow: "hidden", textOverflow: "ellipsis", }}>
-                        <Typography nowrap className={classes.blogSubHeading}>{subHeading}</Typography>
+                        <Typography className={classes.blogSubHeading}>{subHeading}</Typography>
                     </Box>
                     <Box style={{ display: "flex", paddingBottom: 20, cursor: "pointer" }}>
                         <Typography className={classes.readMore}>Read More</Typography>
@@ -56,7 +56,7 @@ const BlogSection = () => {
             <Typography className={classes.subHeading}>Check our latest article to get inspiring content for shopping</Typography>
             <Grid container spacing={4}>
                 {
-                    data.map((item, index) => <IndividualBlog heading={item.name} subHeading={item.subHeading} />)
+                    data.map((item, index) => <IndividualBlog heading={item.name} subHeading={item.subHeading} key={index} />)
                 }
             </Grid>
         </Container>

@@ -9,7 +9,7 @@ const FooterBanner = () => {
     return (
         <Box className={classes.outerContainer}>
             <Container style={{ marginBottom: 128 }}>
-                <Grid container alignItems="center" justify="center">
+                <Grid container alignItems="center" justifyContent="center">
                     <Grid item md={5} xs={12}>
                         <Box className={classes.bannerImage}>
 

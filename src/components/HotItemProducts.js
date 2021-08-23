@@ -96,7 +96,7 @@ const HotItemProducts = () => {
         return (
             <div
                 className={className}
-                style={{ ...style, display: "block", background: "white", height: 72, width: 72, borderRadius: 36, display: "flex", justifyContent: "center", alignItems: "center", color: "black", boxShadow: "3px 2px 9px -2px rgba(0,0,0,0.75)" }}
+                style={{ ...style, background: "white", height: 72, width: 72, borderRadius: 36, display: "flex", justifyContent: "center", alignItems: "center", color: "black", boxShadow: "3px 2px 9px -2px rgba(0,0,0,0.75)" }}
                 onClick={onClick}
             ><ArrowForwardIosIcon /> </div>
         );
@@ -107,7 +107,7 @@ const HotItemProducts = () => {
         return (
             <div
                 className={className}
-                style={{ ...style, display: "block", background: "white", height: 72, width: 72, borderRadius: 36, display: "flex", justifyContent: "center", alignItems: "center", color: "black", boxShadow: "3px 2px 9px -2px rgba(0,0,0,0.75)", }}
+                style={{ ...style, background: "white", height: 72, width: 72, borderRadius: 36, display: "flex", justifyContent: "center", alignItems: "center", color: "black", boxShadow: "3px 2px 9px -2px rgba(0,0,0,0.75)", }}
                 onClick={onClick}
             ><ArrowBackIosIcon style={{ marginLeft: 9 }} /> </div>
         );
