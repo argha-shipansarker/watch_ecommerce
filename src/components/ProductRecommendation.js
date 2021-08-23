@@ -85,7 +85,7 @@ const ProductRecommendation = () => {
         <Container>
             <Typography className={classes.heading}>Product Recommendation</Typography>
             <Typography className={classes.subHeading}>You can choose what our recommendation product here</Typography>
-            <Grid container justifyContent="space-between" spacing={3}>
+            <Grid container justifyContent="space-evenly" spacing={3}>
                 {
                     data.map((item, index) => <IndividualProduct productName={item.name} currentPrice={item.currentPrice} oldPrice={item.oldPrice} />)
                 }

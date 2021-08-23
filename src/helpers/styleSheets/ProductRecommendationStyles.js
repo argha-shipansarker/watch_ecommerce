@@ -22,6 +22,7 @@ const ProductRecommendationStyles = makeStyles(theme => ({
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        borderRadius: 8,
         "&:hover": {
             backgroundColor: "rgb(235, 247, 242)",
             "& $buyNowButton": {
