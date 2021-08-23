@@ -9,6 +9,7 @@ import HeroSectionProducts from './components/HeroSectionProducts';
 import ProductRecommendation from './components/ProductRecommendation';
 import HotItemBanner from './components/HotItemBanner';
 import HotItemProducts from './components/HotItemProducts';
+import Category from './components/Category';
 
 import { ThemeProvider } from '@material-ui/styles';
 
@@ -25,6 +26,8 @@ function App() {
         <Container>
           <hr style={{ position: "relative", top: -100, color: "rgb(213, 217, 223)" }} />
         </Container>
+        <Category />
+        hello
       </div>
     </ThemeProvider>
   );
