@@ -10,8 +10,8 @@ const HeroSection = () => {
     return (
         <Box className={classes.outerContainer}>
             <Container>
-                <Grid container>
-                    <Grid item md={6}>
+                <Grid container spacing={4}>
+                    <Grid item md={6} xs={12}>
                         <Box className={classes.shape} />
                         <Typography className={classes.heading}>Get Special Watch with Special Prices</Typography>
                         <Box className={classes.bulletPointsLine}>
@@ -52,7 +52,7 @@ const HeroSection = () => {
                         />
 
                     </Grid>
-                    <Grid item md={6} className={classes.heroImageContainer}>
+                    <Grid item md={6} xs={12} className={classes.heroImageContainer}>
                         <Box className={classes.heroImage}>
 
                         </Box>

@@ -86,7 +86,7 @@ const IndividualCategory = props => {
 const Category = () => {
     return (
         <Container style={{ marginTop: -30, marginBottom: 100 }}>
-            <Grid container justifyContent="space-between" spacing={3}>
+            <Grid container justifyContent="space-evenly" spacing={3}>
                 {
                     data.map((item, index) => <IndividualCategory name={item.name} image={item.image} />)
                 }
