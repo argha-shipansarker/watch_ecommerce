@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/watch_ecommerce/static/css/main.1c406ee2.chunk.css",
+    "main.js": "/watch_ecommerce/static/js/main.619ea40f.chunk.js",
+    "main.js.map": "/watch_ecommerce/static/js/main.619ea40f.chunk.js.map",
+    "runtime-main.js": "/watch_ecommerce/static/js/runtime-main.76d3b803.js",
+    "runtime-main.js.map": "/watch_ecommerce/static/js/runtime-main.76d3b803.js.map",
+    "static/css/2.7acfc1c2.chunk.css": "/watch_ecommerce/static/css/2.7acfc1c2.chunk.css",
+    "static/js/2.c9119985.chunk.js": "/watch_ecommerce/static/js/2.c9119985.chunk.js",
+    "static/js/2.c9119985.chunk.js.map": "/watch_ecommerce/static/js/2.c9119985.chunk.js.map",
+    "static/js/3.923fbfb0.chunk.js": "/watch_ecommerce/static/js/3.923fbfb0.chunk.js",
+    "static/js/3.923fbfb0.chunk.js.map": "/watch_ecommerce/static/js/3.923fbfb0.chunk.js.map",
+    "index.html": "/watch_ecommerce/index.html",
+    "static/css/2.7acfc1c2.chunk.css.map": "/watch_ecommerce/static/css/2.7acfc1c2.chunk.css.map",
+    "static/css/main.1c406ee2.chunk.css.map": "/watch_ecommerce/static/css/main.1c406ee2.chunk.css.map",
+    "static/js/2.c9119985.chunk.js.LICENSE.txt": "/watch_ecommerce/static/js/2.c9119985.chunk.js.LICENSE.txt",
+    "static/media/categories.d7242de3.svg": "/watch_ecommerce/static/media/categories.d7242de3.svg",
+    "static/media/fashion.cb5edbab.svg": "/watch_ecommerce/static/media/fashion.cb5edbab.svg",
+    "static/media/fire.cea46eb2.svg": "/watch_ecommerce/static/media/fire.cea46eb2.svg",
+    "static/media/furniture.7712d629.svg": "/watch_ecommerce/static/media/furniture.7712d629.svg",
+    "static/media/games.cf2d8337.svg": "/watch_ecommerce/static/media/games.cf2d8337.svg",
+    "static/media/handphone.adc12dc7.svg": "/watch_ecommerce/static/media/handphone.adc12dc7.svg",
+    "static/media/health.a9c444b4.svg": "/watch_ecommerce/static/media/health.a9c444b4.svg",
+    "static/media/investement.77103866.svg": "/watch_ecommerce/static/media/investement.77103866.svg",
+    "static/media/laptop.611c7636.svg": "/watch_ecommerce/static/media/laptop.611c7636.svg",
+    "static/media/music.13faaee5.svg": "/watch_ecommerce/static/media/music.13faaee5.svg",
+    "static/media/photography.1a3b743e.svg": "/watch_ecommerce/static/media/photography.1a3b743e.svg",
+    "static/media/slick-theme.css": "/watch_ecommerce/static/media/slick.c94f7671.ttf",
+    "static/media/sports.e7efd2f3.svg": "/watch_ecommerce/static/media/sports.e7efd2f3.svg",
+    "static/media/ticket.9ddc0109.svg": "/watch_ecommerce/static/media/ticket.9ddc0109.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76d3b803.js",
+    "static/css/2.7acfc1c2.chunk.css",
+    "static/js/2.c9119985.chunk.js",
+    "static/css/main.1c406ee2.chunk.css",
+    "static/js/main.619ea40f.chunk.js"
+  ]
+}
