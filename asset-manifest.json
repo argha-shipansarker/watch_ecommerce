@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/watch_ecommerce/static/css/main.1c406ee2.chunk.css",
-    "main.js": "/watch_ecommerce/static/js/main.619ea40f.chunk.js",
-    "main.js.map": "/watch_ecommerce/static/js/main.619ea40f.chunk.js.map",
-    "runtime-main.js": "/watch_ecommerce/static/js/runtime-main.76d3b803.js",
-    "runtime-main.js.map": "/watch_ecommerce/static/js/runtime-main.76d3b803.js.map",
+    "main.js": "/watch_ecommerce/static/js/main.3e6310ca.chunk.js",
+    "main.js.map": "/watch_ecommerce/static/js/main.3e6310ca.chunk.js.map",
+    "runtime-main.js": "/watch_ecommerce/static/js/runtime-main.19338f3e.js",
+    "runtime-main.js.map": "/watch_ecommerce/static/js/runtime-main.19338f3e.js.map",
     "static/css/2.7acfc1c2.chunk.css": "/watch_ecommerce/static/css/2.7acfc1c2.chunk.css",
-    "static/js/2.c9119985.chunk.js": "/watch_ecommerce/static/js/2.c9119985.chunk.js",
-    "static/js/2.c9119985.chunk.js.map": "/watch_ecommerce/static/js/2.c9119985.chunk.js.map",
-    "static/js/3.923fbfb0.chunk.js": "/watch_ecommerce/static/js/3.923fbfb0.chunk.js",
-    "static/js/3.923fbfb0.chunk.js.map": "/watch_ecommerce/static/js/3.923fbfb0.chunk.js.map",
+    "static/js/2.6e12f2ca.chunk.js": "/watch_ecommerce/static/js/2.6e12f2ca.chunk.js",
+    "static/js/2.6e12f2ca.chunk.js.map": "/watch_ecommerce/static/js/2.6e12f2ca.chunk.js.map",
+    "static/js/3.241644c4.chunk.js": "/watch_ecommerce/static/js/3.241644c4.chunk.js",
+    "static/js/3.241644c4.chunk.js.map": "/watch_ecommerce/static/js/3.241644c4.chunk.js.map",
     "index.html": "/watch_ecommerce/index.html",
     "static/css/2.7acfc1c2.chunk.css.map": "/watch_ecommerce/static/css/2.7acfc1c2.chunk.css.map",
     "static/css/main.1c406ee2.chunk.css.map": "/watch_ecommerce/static/css/main.1c406ee2.chunk.css.map",
-    "static/js/2.c9119985.chunk.js.LICENSE.txt": "/watch_ecommerce/static/js/2.c9119985.chunk.js.LICENSE.txt",
+    "static/js/2.6e12f2ca.chunk.js.LICENSE.txt": "/watch_ecommerce/static/js/2.6e12f2ca.chunk.js.LICENSE.txt",
     "static/media/categories.d7242de3.svg": "/watch_ecommerce/static/media/categories.d7242de3.svg",
     "static/media/fashion.cb5edbab.svg": "/watch_ecommerce/static/media/fashion.cb5edbab.svg",
     "static/media/fire.cea46eb2.svg": "/watch_ecommerce/static/media/fire.cea46eb2.svg",
@@ -30,10 +30,10 @@
     "static/media/ticket.9ddc0109.svg": "/watch_ecommerce/static/media/ticket.9ddc0109.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.76d3b803.js",
+    "static/js/runtime-main.19338f3e.js",
     "static/css/2.7acfc1c2.chunk.css",
-    "static/js/2.c9119985.chunk.js",
+    "static/js/2.6e12f2ca.chunk.js",
     "static/css/main.1c406ee2.chunk.css",
-    "static/js/main.619ea40f.chunk.js"
+    "static/js/main.3e6310ca.chunk.js"
   ]
 }
